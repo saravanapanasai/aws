@@ -1,0 +1,22 @@
+cpu usage
+
+https://www.cyberciti.biz/tips/how-do-i-find-out-linux-cpu-utilization.html
+
+top
+
+htop
+
+sar
+
+sar -u 2--sec 5--lines
+
+mpstat -P ALL
+
+ps -eo pcpu,pid,user,args | sort -k 1 -r | head -10
+
+ iostat
+
+
+
+
+
